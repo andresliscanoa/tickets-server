@@ -1,0 +1,32 @@
+{
+  "name": "tickets-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "export NODE_ENV=develop && nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresliscanoa/tickets-server.git"
+  },
+  "author": "Leonardo Liscano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresliscanoa/tickets-server/issues"
+  },
+  "homepage": "https://github.com/andresliscanoa/tickets-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "express-validator": "^6.14.0",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
