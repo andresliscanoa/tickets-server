@@ -17,7 +17,6 @@ try {
             cluster.fork()
         } )
     } else {
-        require( './src/factories/mongoose' )
         app.listen( port, () => {
             logger.info( `WORKER SERVER PID ${ process.pid } LISTENING ON PORT: ${ port }` )
         } )

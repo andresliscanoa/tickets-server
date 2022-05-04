@@ -1,7 +1,7 @@
 'use strict'
 
-const tokenRoutes = require('../routes/Tokens')
+const usersRoutes = require('../routes/UsersRoutes')
 
 module.exports = function ( app ) {
-    app.use('/api/tokens', tokenRoutes)
+    app.use('/api/users', usersRoutes)
 }
