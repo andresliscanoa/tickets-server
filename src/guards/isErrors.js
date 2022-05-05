@@ -10,7 +10,7 @@ module.exports = ( req, res, next ) => {
             error: errors.array().map( err => err ),
             info : req.info
         } )
-        return res.status( 400 ).send( {
+        return res.status( 400 ).json( {
             status : 'warning',
             message: 'Error de integridad de datos',
             payload: {
